@@ -1,0 +1,11 @@
+.popup__close_card {
+    right: -40px;
+    top: -39px;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__close_card {
+        right: -1px;
+        top: -31px;
+    }
+}
