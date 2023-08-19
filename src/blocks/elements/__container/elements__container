@@ -1,4 +1,0 @@
-.elements__container {
-    display: block;
-    max-width: 25px;
-}
