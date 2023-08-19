@@ -1,0 +1,7 @@
+.login__submit-button_disabled {
+    background-color: #ffffff;
+    opacity: 0.85;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: not-allowed;
+  }

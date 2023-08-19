@@ -1,0 +1,29 @@
+.header__email-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 6px;
+    transition: height 0.2s linear;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .header__email-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      height: 0;
+      padding-top: 0;
+      overflow: hidden;
+      width: 100%;
+      top: 0;
+      left: 0;
+      border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .header__email-container {
+      padding-right: 27px;
+    }
+  }
