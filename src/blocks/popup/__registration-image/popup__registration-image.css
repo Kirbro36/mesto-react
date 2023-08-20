@@ -1,0 +1,8 @@
+.popup__registration-image {
+    background-image: url(../../../images/Yes.svg);
+    width: 120px;
+    height: 120px;
+    margin: 60px auto 0px;
+    background-position: center;
+    background-size: cover;
+  }

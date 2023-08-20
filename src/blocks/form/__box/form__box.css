@@ -1,0 +1,21 @@
+.form__box {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    color: #000;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    height: 27px;
+    line-height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 767px) {
+    .form__box {
+        font-size: 14px;
+        line-height: 17px;
+        width: 238px;
+    }
+}

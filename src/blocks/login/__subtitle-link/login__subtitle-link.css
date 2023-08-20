@@ -1,0 +1,10 @@
+.login__subtitle-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .login__subtitle-link:active {
+    opacity: 0.6;
+  }

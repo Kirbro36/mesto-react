@@ -1,0 +1,28 @@
+.login__input {
+    display: flex;
+    width: 358px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: 2px solid #CCCCCC;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    box-sizing: border-box;
+    align-self: center;
+  }
+  
+  .login__input:first-of-type {
+    margin-top: 0;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .login__input {
+      width: 100%;
+    }
+  }

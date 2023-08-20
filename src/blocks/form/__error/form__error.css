@@ -1,0 +1,11 @@
+.form__error {
+    border: none;
+    color: red;
+    display: flex;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 16px;
+    padding: 0;
+}

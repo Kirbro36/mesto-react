@@ -1,0 +1,12 @@
+.footer {
+    font-weight: 400;
+    max-width: 318px;
+    margin-top: 67px;
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        margin: 54px 19px 0;
+    }
+}

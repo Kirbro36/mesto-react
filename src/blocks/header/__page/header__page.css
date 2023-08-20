@@ -1,0 +1,19 @@
+.header__page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 4px -1px 0 0;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    box-sizing: border-box;
+    padding-top: 45px;
+    transition: padding-top 0.2s linear;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .header__page {
+      width: 100%;
+      padding-top: 28px;
+    }
+  }

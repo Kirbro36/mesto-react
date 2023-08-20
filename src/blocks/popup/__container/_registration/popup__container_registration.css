@@ -1,0 +1,19 @@
+.popup__container_registration {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 430px;
+    height: 330px;
+    padding: 34px 36px 37px 36px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    
+  }
+  @media screen and (max-width: 767px) {
+    .popup__container_registration  {
+      width: 280px; 
+    } 
+  }

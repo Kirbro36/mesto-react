@@ -1,0 +1,21 @@
+.profile__info {
+    display: grid;
+    grid-template-columns: 294px 24px;
+    column-gap: 19px;
+    row-gap: 9px;
+    grid-template-areas:
+        "a c"
+        "b b";
+    align-items: center;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .profile__info {
+        grid-template-columns: 190px 18px;
+        margin-left: 26px;
+        margin-top: 24px;
+        column-gap: 7px;
+        row-gap: 8px;
+    }
+}
